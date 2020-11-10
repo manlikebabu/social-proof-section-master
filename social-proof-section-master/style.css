@@ -1,0 +1,111 @@
+body {
+  font-size: 15px;
+}
+
+.top {
+  display: flex;
+}
+.top-left {
+  display: inline-block;
+  width: 50%;
+}
+
+.big {
+  font-size: 60px;
+  color: hsl(303, 10%, 53%);
+  font-weight: 900;
+}
+
+.rating {
+  display: block;
+  padding-right: 100px;
+  width: 50%;
+  overflow: hidden;
+}
+
+.reviews {
+  font-size: 24px;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  font-weight: 600;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  padding-left: 2px;
+  margin-left: 1em;
+}
+
+.guru {
+  font-size: 24px;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  font-weight: 600;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  padding-left: 2px;
+  margin-left: 1.5em;
+}
+
+.best-tech {
+  font-size: 24px;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  font-weight: 600;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  padding-left: 2px;
+  margin-left: 2em;
+}
+
+.checked {
+  color: orange;
+}
+
+.cards {
+  justify-content: center;
+}
+
+.card-1 {
+  background-color: hsl(300, 43%, 22%);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.card-2 {
+  background-color: hsl(300, 43%, 22%);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 2cm;
+}
+
+.card-3 {
+  background-color: hsl(300, 43%, 22%);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 4cm;
+}
+
+img {
+  float: left;
+  border-radius: 50%;
+}
+
+.description {
+  color: hsl(0, 0%, 100%);
+}
+
+.buyer {
+  color: hsl(333, 80%, 67%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
